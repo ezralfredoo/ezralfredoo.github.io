@@ -1,0 +1,179 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.container{
+    background-color: #E8E3DD;
+    width: 100%;
+}
+
+.head{
+    background-color: #F2B705;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    margin: 10px;
+    width: 3%;
+}
+
+.ez{
+    float: left;
+    margin-top: 20px;
+}
+
+div.head ul {
+	overflow:hidden;
+	list-style: none;
+	float: right;
+	padding: 0px;
+	margin: 15 0 0;
+}
+
+div.head ul li {
+    margin:auto;
+    display: inline-block;
+    color: black;
+}
+ 
+div.head ul a {
+    color: black;
+	padding:20px;
+	font-weight:600;
+	font-size: 18px;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+div.head ul a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+a.bold{
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.headpic{
+    clear: both;
+    width: 15%;
+    margin-left: 415px;
+    padding: 50px 0 10px 0;
+}
+
+.judul{
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+.con1{
+    text-align: center;
+    padding: 0 0 50px 0;
+    width: 90%;
+    height: 300px;
+    margin: -50px 0 0 62.5px;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #E8E3DD;
+}
+
+.iconic{
+    text-align: center;
+    padding-top: 100px;
+    color:  #594E45;
+    width: 100%;
+    
+}
+
+.instagram{
+    float: left;
+}
+
+.email{
+    float: left;
+    margin-left: -200px;
+}
+
+.phone{
+    float: left;
+    margin-left: -100px;
+}
+
+.name{
+    color: black;
+}
+
+.iconic img{
+    width: 20%;
+    margin-bottom: 5px;
+}
+
+.phone img{
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+.name{
+    color: black;
+}
+
+.con2{
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.map img{
+    width: 40%;
+}
+
+.locname{
+    margin: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px 0 20px 0;
+}
+
+.message{
+    padding-top: 10px;
+    background-color: #F2B705;
+    text-align: center;
+}
+
+.form-control{
+    width: 400px;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form .submit{
+    background: #383938;
+    border-color: transparent;
+    color: #FFF;
+    font-weight: bold;
+    height: 50px;
+}
+
+form .submit:hover{
+    background-color: #565656;
+    cursor: pointer;
+}
+
+.footer{
+    clear: both;
+    background-color: #F2B705;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: -18px;
+}
+
+.footer div{
+    padding-top: 15px;
+}

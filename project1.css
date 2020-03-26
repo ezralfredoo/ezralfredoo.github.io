@@ -1,0 +1,155 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.container{
+    background-color: #E8E3DD;
+    width: 100%;
+}
+
+.head{
+    background-color: #F2B705;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    margin: 10px;
+    width: 3%;
+}
+
+.ez{
+    float: left;
+    margin-top: 20px;
+}
+
+div.head ul {
+	overflow:hidden;
+	list-style: none;
+	float: right;
+	padding: 0px;
+	margin: 15 0 0;
+}
+
+div.head ul li {
+    margin:auto;
+    display: inline-block;
+    color: black;
+}
+ 
+div.head ul a {
+    color: black;
+	padding:20px;
+	font-weight:600;
+	font-size: 18px;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+div.head ul a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+a.bold{
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.headpic{
+    clear: both;
+    width: 20%;
+    margin-left: 380px;
+    padding: 50px 0 10px 0;
+}
+
+.judul{
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+.sec1{
+    width: 80%;
+    height: 450px;
+    margin: -50px 0 80px 0;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #E8E3DD;
+}
+
+.sec1 img{
+    float: left;
+    width: 60%;
+    margin: 20px;
+}
+
+.sec1 h2{
+    padding-top: 20px;
+}
+
+.sec1 p{
+    width: 97%;
+    text-align: justify;
+}
+
+.sec2{
+    float: right;
+    width: 80%;
+    height: 450px;
+    margin: -50px 0 30px 0;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #F2B705;
+}
+
+.sec2 img{
+    float: right;
+    width: 60%;
+    margin: 20px;
+}
+
+.sec2 h2{
+    margin-left: 30px;
+}
+
+.sec2 p{
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.sec3{
+    clear: both;
+    width: 80%;
+    height: 450px;
+    margin: -50px 0 80px 0;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #E8E3DD;
+}
+
+.sec3 img{
+    float: left;
+    width: 60%;
+    margin: 20px;
+}
+
+.sec3 h2{
+    padding-top: 20px;
+}
+
+.sec3 p{
+    width: 97%;
+    text-align: justify;
+}
+
+.footer{
+    clear: both;
+    background-color: #F2B705;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer div{
+    margin-top: -20px;
+    padding-top: 15px;
+}

@@ -1,0 +1,187 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.container{
+    background-color: #E8E3DD;
+    width: 100%;
+}
+
+.head{
+    background-color: #F2B705;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    margin: 10px;
+    width: 3%;
+}
+
+.ez{
+    float: left;
+    margin-top: 20px;
+}
+
+div.head ul {
+	overflow:hidden;
+	list-style: none;
+	float: right;
+	padding: 0px;
+	margin: 15 0 0;
+}
+
+div.head ul li {
+    margin:auto;
+    display: inline-block;
+    color: black;
+}
+ 
+div.head ul a {
+    color: black;
+	padding:20px;
+	font-weight:600;
+	font-size: 18px;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+div.head ul a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+a.bold{
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.headpic{
+    clear: both;
+    width: 18%;
+    margin-left: 390px;
+    padding: 50px 0 10px 0;
+}
+
+.judul{
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+.sec1{
+    padding: 0 0 50px 0;
+    width: 60%;
+    height: 400px;
+    margin: -75px 0 25px 250px;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #E8E3DD;
+}
+
+.peak{
+    width: 50%;
+    float: left;
+    margin: 30px;
+}
+
+.myinterest{
+    margin: 30px;
+}
+
+.myinterest h2{
+    padding-top: 30px;
+}
+
+.myinterest p{
+    width: 40%;
+    margin-top: -10px;
+    float: left;
+    text-align: justify;
+}
+
+.sec2{
+    margin-bottom: 150px;
+}
+
+.sec2 h1{
+    text-align: center;
+}
+
+.isisec2{
+    margin-left: 150px;
+}
+
+.secpic{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.box{
+    width: 30%;
+    float: left;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #E8E3DD;
+}
+
+.box h3{
+    padding-left: 10px;
+}
+
+.box p{
+    padding: 0 10px 10px 10px;
+    margin-top: -15px;
+    width: 90%;
+    text-align: justify;
+    float: left;
+}
+
+.sec3{
+    clear: both;
+    margin-top: 230px;
+    margin-bottom: 50px;
+}
+
+.sec3 h1{
+    text-align: center;
+}
+
+.boxes{
+    padding: 0 0 50px 0;
+    width: 60%;
+    height: 150px;
+    margin: 0 0 0 250px;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #E8E3DD;
+}
+
+.boxes img{
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+    margin-left: 190px;
+}
+
+.boxes p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    clear: both;
+}
+
+.footer{
+    clear: both;
+    background-color: #F2B705;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer div{
+    margin-top: -20px;
+    padding-top: 15px;
+}

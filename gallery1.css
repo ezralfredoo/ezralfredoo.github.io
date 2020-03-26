@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.container{
+    background-color: #E8E3DD;
+    width: 100%;
+}
+
+.head{
+    background-color: #F2B705;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    margin: 10px;
+    width: 3%;
+}
+
+.ez{
+    float: left;
+    margin-top: 20px;
+}
+
+div.head ul {
+	overflow:hidden;
+	list-style: none;
+	float: right;
+	padding: 0px;
+	margin: 15 0 0;
+}
+
+div.head ul li {
+    margin:auto;
+    display: inline-block;
+    color: black;
+}
+ 
+div.head ul a {
+    color: black;
+	padding:20px;
+	font-weight:600;
+	font-size: 18px;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+div.head ul a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+a.bold{
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.headpic{
+    clear: both;
+    width: 18%;
+    margin-left: 400px;
+    padding: 50px 0 10px 0;
+}
+
+.judul{
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+.sec1{
+    width: 90%;
+    height: 800px;
+    margin: -50px 0 80px 75px;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #E8E3DD;
+}
+
+.sec2{
+    width: 90%;
+    height: 1300px;
+    margin: -50px 0 80px 75px;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #E8E3DD;
+}
+
+h2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.allsec{
+    margin: 10px;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flexbox-warp: warp;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow:row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
+
+.allsec div{
+    -webkit-box-flex: aito;
+    -ms-flex:auto;
+    flex: auto;
+    width: 200px;
+    margin: 10px;
+}
+
+.allsec div img{
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    clear: both;
+    background-color: #F2B705;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer div{
+    margin-top: -20px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 400px){
+    .allsec div{
+        margin: 0;
+    }
+
+    .allsec{
+        padding: 0;
+    }
+
+}
