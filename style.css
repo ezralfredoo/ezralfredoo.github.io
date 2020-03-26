@@ -1,0 +1,208 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.container{
+    background-color: #E8E3DD;
+    width: 100%;
+}
+
+.head{
+    background-color: #F2B705;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    margin: 10px;
+    width: 3%;
+}
+
+.ez{
+    float: left;
+    margin-top: 20px;
+}
+
+div.head ul {
+	overflow:hidden;
+	list-style: none;
+	float: right;
+	padding: 0px;
+	margin: 15 0 0;
+}
+
+div.head ul li {
+    margin:auto;
+    display: inline-block;
+    color: black;
+}
+ 
+div.head ul a {
+    color: black;
+	padding:20px;
+	font-weight:600;
+	font-size: 18px;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+div.head ul a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+a.bold{
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.welcome{
+	clear: both;
+	text-align: center;
+	font-size: 25px;
+	padding: 250px;
+}
+
+.sec1{
+	width: 70%;
+	margin: 50px 0 30px 200px;
+	height: 465px;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #E8E3DD;
+}
+
+.sec1 img{
+	float: left;
+	width: 65%;
+	margin: 20px;
+}
+
+.sec1 h1{
+	padding-top: 20px;
+}
+
+.sec1 p{
+	width: 97%;
+	text-align: justify;
+}
+
+.sec2{
+	text-align: center;
+}
+
+.sec2 h4{
+	color: #fff;
+}
+
+.boxes{
+	margin-left: 200px;
+	margin-bottom: 200px;
+}
+
+.box{
+	float: left;
+	text-align: center;
+	width: 15%;
+	margin-left: 50px;
+    box-shadow: 0px 0px 10px #aaa;
+    background-color: #383938;
+}
+
+.box img{
+	width: 50px;
+	height: 50px;
+	padding-top: 20px;
+}
+
+.next{
+	text-align: center;
+}
+
+.buttons{
+	margin-left: 250px;
+	margin-bottom: 150px;
+}
+
+.button{
+	padding: 30px;
+	float: left;
+	width: 20%;
+	background-color: #F2B705;
+	margin-left: 100px;
+}
+
+.button a{
+	padding: 30px 50px 30px 50px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-size: 24px;
+}
+
+.button:hover {
+	background-color: #D3A42F;
+	cursor: pointer;
+}
+
+.footer{
+    clear: both;
+    background-color: #F2B705;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer div{
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 900px) {
+	.head{
+		text-align: center;
+	}
+
+	.logo{
+		float: left;
+		width: 7%;
+		text-align: center;
+	}
+
+	.ez{
+
+	}
+
+	div.head ul {
+		clear: both;
+		overflow:hidden;
+		list-style: none;
+		text-align: center;
+		padding: 0px;
+		margin: 15 290px 0;
+	}
+	
+	div.head ul li {
+		display: inherit;
+		color: black;
+		margin-top: 30px;
+	}
+	 
+	div.head ul a {
+		color: black;
+		padding:20px;
+		font-weight:600;
+		font-size: 25px;
+		transition: all 0.5s ease;
+		text-decoration: none;
+	}
+	 
+	div.head ul a:hover {
+		opacity: 70%;
+	}
+
+	.welcome{
+		text-align: center;
+	}
+}
