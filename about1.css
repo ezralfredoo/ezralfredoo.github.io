@@ -197,7 +197,7 @@ div.pic2 img{
     .sec1{
         margin: 0;
         float: none;
-        width: 80%;
+        width: 90%;
         margin-left: 20px;
     }
 
@@ -209,13 +209,13 @@ div.pic2 img{
         width: 250px;
         height: 160px;
         margin: 0;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .sec2{
         margin: 0;
         float: none;
-        width: 60%;
+        width: 90%;
         margin-left: 20px;
     }
 
@@ -227,7 +227,7 @@ div.pic2 img{
         width: 250px;
         height: 160px;
         margin: 0;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     p{
