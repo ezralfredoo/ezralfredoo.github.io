@@ -255,7 +255,7 @@ a.bold{
     .peak{
         float: none;
         width: 90%;
-        margin: 20px;
+        margin: 30px 15px 15px 15px;
     }
 
     .myinterest{
@@ -322,7 +322,6 @@ a.bold{
         padding: 0;
         width: 100%;
         margin: 0;
-        margin-left: 10px;
         box-shadow: none;
     }
 
