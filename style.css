@@ -192,7 +192,7 @@ a.bold{
 		list-style: none;
 		text-align: center;
 		padding: 0px;
-		margin: 15 135px 0;
+		margin: 15 115px 0;
 	}
 	
 	div.head ul li {
@@ -231,7 +231,7 @@ a.bold{
 
 	.sec1 h1{
 		padding: 0;
-		margin-left: 40px;
+		margin-left: 20px;
 	}
 
 	.sec1 img{
@@ -267,7 +267,7 @@ a.bold{
 	}
 
 	.buttons{
-		margin: 0 0 150px 0;
+		margin: 0 0 150px -20;
 	}
 
 	.button{
