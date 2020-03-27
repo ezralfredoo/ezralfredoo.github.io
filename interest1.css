@@ -185,3 +185,156 @@ a.bold{
     margin-top: -20px;
     padding-top: 15px;
 }
+
+@media screen and (max-width: 720px) {
+	.container{
+	}
+
+	.head{
+		text-align: center;
+	}
+
+	.logo{
+		float: left;
+		width: 10%;
+		text-align: center;
+		margin: 20px 10px 0 120px;
+	}
+
+	.ez{
+		margin-top: 33px;
+	}
+
+	div.head ul {
+		clear: both;
+		overflow:hidden;
+		list-style: none;
+		text-align: center;
+		padding: 0px;
+		margin: 15 115px 0;
+	}
+	
+	div.head ul li {
+		display: inherit;
+		color: black;
+		margin-top: 30px;
+		width: 100%;
+		border-bottom: 1px solid black;
+	}
+	 
+	div.head ul a {
+		color: black;
+		padding:20px;
+		font-weight:600;
+		font-size: 25px;
+		transition: all 0.5s ease;
+		text-decoration: none;
+	}
+	 
+	div.head ul a:hover {
+		opacity: 70%;
+    }
+    
+    .headpic{
+        width: 50%;
+        margin: 0;
+    }
+
+    .judul{
+
+    }
+    
+    .sec1{
+        width: 95%;
+        margin: 0;
+        box-shadow: none;
+        margin: auto;
+        margin-bottom: 480px;
+    }
+
+    .peak{
+        float: none;
+        width: 90%;
+    }
+
+    .myinterest{
+        margin: 20px;
+    }
+
+    .myinterest h2{
+        font-size: 30px;
+    }
+
+    .myinterest p{
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .sec2{
+        margin: 0;
+    }
+
+    .sec2 h1{
+
+    }
+
+    .isisec2{
+        margin: 20px;
+    }
+
+    .secpic{
+        float: none;
+        width: 160px;
+        height: 160px;
+        margin-left: 105px;
+    }
+
+    .box{
+        float: none;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .box h3{
+        font-size: 22px;
+    }
+
+    .box p{
+        padding: 0;
+        margin: 0;
+        margin: 10px;
+        width: 95%;
+        float: none;
+    }
+
+    .sec3{
+        margin: 30px;
+        margin-bottom: 150px;
+    }
+
+    .sec3 h1{
+
+    }
+
+    .boxes{
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        margin-left: 30px;
+        box-shadow: none;
+    }
+
+    .boxes img{
+        margin: 30px;
+        margin-left: 30px;
+    }
+
+    .boxes p{
+        width: 95%;
+    }
+
+    p{
+        font-size: 20px;
+    }
+}
