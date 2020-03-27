@@ -249,12 +249,13 @@ a.bold{
         margin: 0;
         box-shadow: none;
         margin: auto;
-        margin-bottom: 480px;
+        margin-bottom: 510px;
     }
 
     .peak{
         float: none;
         width: 90%;
+        margin: 0;
     }
 
     .myinterest{
@@ -287,7 +288,7 @@ a.bold{
         float: none;
         width: 160px;
         height: 160px;
-        margin-left: 105px;
+        margin-left: 85px;
     }
 
     .box{
@@ -321,7 +322,7 @@ a.bold{
         padding: 0;
         width: 100%;
         margin: 0;
-        margin-left: 30px;
+        margin-left: 10px;
         box-shadow: none;
     }
 
