@@ -93,7 +93,7 @@ a.bold{
 }
 
 .sec2 h4{
-	color: #fff;
+	color: #F2B705;
 }
 
 .boxes{
@@ -159,7 +159,10 @@ a.bold{
     padding-top: 15px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 720px) {
+	.container{
+	}
+
 	.head{
 		text-align: center;
 	}
@@ -168,10 +171,11 @@ a.bold{
 		float: left;
 		width: 7%;
 		text-align: center;
+		margin: 20px 10px 0 300px;
 	}
 
 	.ez{
-
+		margin-top: 35px;
 	}
 
 	div.head ul {
@@ -187,6 +191,8 @@ a.bold{
 		display: inherit;
 		color: black;
 		margin-top: 30px;
+		width: 100%;
+		border-bottom: 1px solid black;
 	}
 	 
 	div.head ul a {
@@ -203,6 +209,64 @@ a.bold{
 	}
 
 	.welcome{
+		padding: 50px;
 		text-align: center;
+	}
+
+	.sec1{
+		margin: 0;
+		width: 95%;
+		box-shadow: none;
+		background-color: none;
+		text-align: center;
+	}
+
+	.sec1 h1{
+		padding: 0;
+		margin-left: 80px;
+	}
+
+	.sec1 img{
+		float: none;
+		margin-left: 80px;
+	}
+
+	.sec1 p{
+		width: 100%;
+		margin: 0 20px 0 20px;
+		font-size: 24px;
+	}
+
+	.sec2{
+		margin-top: 150px;
+	}
+
+	.boxes{
+		margin: 0;
+		margin-left: 50px;
+	}
+
+	.box{
+		width: 40%;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	.next{
+		clear: both;
+		margin-top: 375px;
+	}
+
+	.buttons{
+		margin: 0 0 150px 85px;
+	}
+
+	.button{
+		padding: 30px 60px 30px 30px;
+		margin-left: 30px;
+	}
+
+	.button a{
+		padding-left: 25px;
 	}
 }
